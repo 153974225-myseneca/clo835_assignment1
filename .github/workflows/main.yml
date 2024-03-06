@@ -32,7 +32,7 @@ jobs:
         ECR_REPOSITORY: fatima-assignment-2
         
       run: |
-        #cd Chapter02/kubia/
+        #cd Assignment
         #ls -ltra
         # Docker build image database
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:database -f Dockerfile_mysql .
